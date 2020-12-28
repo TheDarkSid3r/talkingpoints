@@ -58,7 +58,7 @@ body {
     right: -60px;
     width: 500px;
     height: 105%;
-    background-image: url(/images/sidestage.png);
+    background-image: url(images/sidestage.png);
     background-size: auto 100%;
     background-position: right;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body {
 }
 
 .menu-stage-image {
-    background-image: url(/images/stage.png);
+    background-image: url(images/stage.png);
     z-index: 2;
 }
 
@@ -97,7 +97,7 @@ body {
     right: -139px;
     width: 556px;
     height: 300px;
-    background-image: url(/images/stageshadow.png);
+    background-image: url(images/stageshadow.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
 }
 
 .menu-stage-mask {
-    background-image: url(/images/stagemasked.png);
+    background-image: url(images/stagemasked.png);
     z-index: 5;
 }
 
@@ -208,7 +208,7 @@ button:hover {
     left: 50%;
     width: 305px;
     height: 177px;
-    background-image: url(/images/loader.png);
+    background-image: url(images/loader.png);
     background-size: 100% auto;
     z-index: 50;
     transform: translate(-50%, -50%);
@@ -468,7 +468,7 @@ button:hover {
     right: 0;
     width: 300px;
     height: 600px;
-    background-image: url(/images/meteryellow.png);
+    background-image: url(images/meteryellow.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -476,7 +476,7 @@ button:hover {
 }
 
 .meter-wrapper.purple {
-    background-image: url(/images/meterpurple.png);
+    background-image: url(images/meterpurple.png);
 }
 
 .meterhidden {
@@ -490,7 +490,7 @@ button:hover {
     margin-bottom: -257px;
     width: 100%;
     height: 610px;
-    background-image: url(/images/overflow.gif);
+    background-image: url(images/overflow.gif);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -559,7 +559,7 @@ button:hover {
     left: 0;
     top: 0;
     height: 8px;
-    background-image: url(/images/slideicons/arrow.png);
+    background-image: url(images/slideicons/arrow.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
