@@ -345,7 +345,7 @@ var game = class {
                         setTimeout(() => {
                             var isUp = r.direction == "up";
                             new Howl({
-                                src: ["/sound/react_".concat(r.direction, ".wav")],
+                                src: ["sound/react_".concat(r.direction, ".wav")],
                                 volume: isUp ? 0.6 : 0.1,
                                 //volume: 0,
                                 autoplay: true
@@ -513,7 +513,7 @@ var game = class {
                         var ta2 = setTimeout(() => {
                             if (up) {
                                 new Howl({
-                                    src: ["/sound/tower_next_tier3.wav"],
+                                    src: ["sound/tower_next_tier3.wav"],
                                     volume: 0.4,
                                     //volume: 0,
                                     autoplay: true
