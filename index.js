@@ -155,8 +155,8 @@ var game = class {
                         var f = {
                             name: p.name.toUpperCase(),
                             color: "#".concat(p.color),
-                            avatar: "/images/avatars/".concat(avindex, ".png"),
-                            hand: "/images/hands/".concat(avindex, ".png"),
+                            avatar: "images/avatars/".concat(avindex, ".png"),
+                            hand: "images/hands/".concat(avindex, ".png"),
                             awards: p.awardsReceivedThisGame
                         };
                         return Object.assign(p, f);
@@ -164,7 +164,7 @@ var game = class {
 
                     this.audienceplayer = {
                         name: "AUDIENCE",
-                        hand: "/images/hands/audience.png"
+                        hand: "images/hands/audience.png"
                     };
                 }
 
@@ -236,7 +236,7 @@ var game = class {
                     musictoload.forEach((n) => {
                         var o = typeof (n) == "string" ? { n, f: n } : n;
                         this.music[o.n] = new Howl({
-                            src: ["/music/music".concat(musicindex + 1, "/", o.f, ".wav")],
+                            src: ["music/music".concat(musicindex + 1, "/", o.f, ".wav")],
                             autoplay: false,
                             volume: 0.8,
                             //volume: 0,
@@ -383,8 +383,8 @@ var game = class {
                     var timelineicon = class {
                         constructor(type, timeline) {
                             this.e = g.d("timeline-icon", timeline.r).css({ width: timeline.iconwidth });
-                            this.uns = g.d("timeline-icon-unselected", this.e).css({ backgroundImage: "url(/images/slideicons/".concat(type, ".png)") });
-                            this.sel = g.d("timeline-icon-selected", this.e).css({ backgroundImage: "url(/images/slideicons/".concat(type, "Selected.png)") });
+                            this.uns = g.d("timeline-icon-unselected", this.e).css({ backgroundImage: "url(images/slideicons/".concat(type, ".png)") });
+                            this.sel = g.d("timeline-icon-selected", this.e).css({ backgroundImage: "url(images/slideicons/".concat(type, "Selected.png)") });
                             this.select(false);
                         }
 
